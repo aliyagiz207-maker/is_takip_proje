@@ -9,9 +9,10 @@ C# Windows Forms App (.NET Framework) kullanılarak, DevExpress arayüz bileşen
 - Firma yönetimi
 - Görev oluşturma ve takip
 - Aktif ve tamamlanan görevlerin görüntülenmesi
-- Görev detayları ve istatistikleri
+- Görev detaylarının görüntülenmesi
+- Görev istatistikleri
 - Aktif ve pasif çağrı takibi
-- Departman, personel ve firma istatistikleri
+- Personel istatistikleri
 - Raporlama
 - Yönetici ve personel giriş ekranları
 - DevExpress Ribbon ve MDI arayüz yapısı
