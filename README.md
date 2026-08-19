@@ -1,42 +1,54 @@
 # İş Takip Projesi
 
-C# Windows Forms App (.NET Framework) kullanılarak, DevExpress arayüz bileşenleri ve SQL Server veritabanı ile geliştirilmiş iş takip uygulaması.
-
-## Özellikler
-
-- Departman yönetimi
-- Personel yönetimi
-- Firma yönetimi
-- Görev oluşturma ve takip
-- Aktif ve tamamlanan görevlerin görüntülenmesi
-- Görev detaylarının görüntülenmesi
-- Görev istatistikleri
-- Aktif ve pasif çağrı takibi
-- Personel istatistikleri
-- Raporlama
-- Yönetici ve personel giriş ekranları
-- DevExpress Ribbon ve MDI arayüz yapısı
+C# ve .NET Framework kullanılarak geliştirilen, SQL Server ve Entity Framework tabanlı iş takip ve yönetim uygulaması.
 
 ## Kullanılan Teknolojiler
 
 - C#
 - Windows Forms
+- ASP.NET MVC
 - .NET Framework 4.7.2
 - DevExpress
 - Entity Framework 6.5.2
 - SQL Server
+- Bootstrap
+- jQuery
+
+## Proje İçeriği
+
+### Windows Forms Uygulaması
+- Departman yönetimi
+- Personel yönetimi
+- Firma yönetimi
+- Görev oluşturma ve takip
+- Aktif ve tamamlanan görevlerin görüntülenmesi
+- Görev detayları ve istatistikleri
+- Aktif ve pasif çağrı takibi
+- Departman, personel ve firma istatistikleri
+- Raporlama
+- Yönetici ve personel giriş ekranları
+- DevExpress tabanlı kullanıcı arayüzü
+
+### ASP.NET MVC Uygulaması
+- Firma çağrı yönetimi
+- Aktif ve pasif çağrı takibi
+- Çağrı detayları ve kayıt işlemleri
+- Kullanıcı giriş sistemi
+- Firma profili ve profil düzenleme
+- Entity Framework Database First
+- SQL Server veritabanı entegrasyonu
 
 ## Veritabanı
 
-Proje, Entity Framework kullanılarak SQL Server veritabanı ile çalışmaktadır.
+Proje SQL Server kullanmaktadır. Entity Framework Database First yaklaşımıyla veritabanı modelleri oluşturulmuştur.
 
-Entity Framework modeli içerisinde yönetici, personel, departman, firma, görev ve çağrı verileri için entity'ler bulunmaktadır.
+> Güvenlik nedeniyle gerçek SQL Server bağlantı bilgileri projeye dahil edilmemiştir. Veritabanı bağlantısı için `App.config.example` dosyası örnek olarak sunulmuştur.
 
-## Kurulum
+## Proje Yapısı
 
-1. Projeyi klonlayın.
-2. `is_takip_proje.slnx` dosyasını Visual Studio ile açın.
-3. Entity Framework 6.5.2 ve gerekli DevExpress bileşenlerinin kurulu olduğundan emin olun.
-4. `App.config.example` dosyasını `App.config` olarak kopyalayın.
-5. SQL Server bağlantı bilgilerini kendi sisteminize göre düzenleyin.
-6. Projeyi derleyip çalıştırın.
+```text
+is_takip_proje/
+├── is_takip_proje/       # Windows Forms uygulaması
+├── MvcFirmaCagri/        # ASP.NET MVC uygulaması
+├── .gitignore
+└── README.md
