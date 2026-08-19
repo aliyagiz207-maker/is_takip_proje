@@ -1,17 +1,27 @@
 .vs/
+
 bin/
+
 obj/
 
 *.user
+
 *.suo
+
 *.userosscache
+
 *.sln.docstates
 
 Debug/
+
 Release/
 
 *.pdb
+
 *.exe
 
 App.config
+
+Web.config
+
 packages/
