@@ -56,6 +56,7 @@ is_takip_proje/
 ├── .gitignore
 ├── README.md
 └── is_takip_proje.slnx
+```
 
 ## Geliştirici
 
