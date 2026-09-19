@@ -56,3 +56,8 @@ is_takip_proje/
 ├── .gitignore
 ├── README.md
 └── is_takip_proje.slnx
+
+## Geliştirici
+
+**Ali Yağız Demir**
+GitHub: <https://github.com/aliyagiz207-maker>
