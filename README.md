@@ -4,7 +4,7 @@
 
 C# ve .NET Framework kullanılarak geliştirilmiş, SQL Server ve Entity Framework tabanlı iş takip ve çağrı yönetim projesi.
 
-## Projeler
+## UYGULAMALAR
 
 ### Windows Forms Uygulaması
 
