@@ -1,5 +1,7 @@
 # İş Takip Projesi
 
+<img width="756" height="323" alt="giris_ekrani" src="https://github.com/user-attachments/assets/da33a289-6dd4-468a-996c-19510bb46ff1" />
+
 C# ve .NET Framework kullanılarak geliştirilmiş, SQL Server ve Entity Framework tabanlı iş takip ve çağrı yönetim projesi.
 
 ## Projeler
