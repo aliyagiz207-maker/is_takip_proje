@@ -20,6 +20,8 @@ DevExpress kullanılarak geliştirilen masaüstü iş takip uygulaması.
 - Raporlama
 - Yönetici ve personel giriş ekranları
 
+<img width="1691" height="804" alt="Ekran görüntüsü_26-9-2026_221243_localhost" src="https://github.com/user-attachments/assets/95d213a8-5d4c-40ec-a655-650742c84377" />
+
 ### ASP.NET MVC Uygulaması
 
 Firma çağrı süreçlerinin web üzerinden yönetilmesi amacıyla geliştirilen MVC uygulaması.
